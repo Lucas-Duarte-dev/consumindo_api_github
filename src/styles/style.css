@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #111;
+}
+
+.card {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card > .cardRepo {
+  background: #000;
+  width: 33rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  color: #fff;
+}
+
+.card > .cardRepo > img {
+  width: 100%;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card > .cardRepo .description {
+  width: 100%;
+  padding: 2rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card > .cardRepo .description > h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.8rem 0;
+}
+
+.card > .cardRepo .description > h3 p {
+  font-size: 1rem;
+  margin-left: 0.3rem;
+  color: #5BBA6F;
+}
+
+.card > .cardRepo .description a {
+  color: #5BBA6F;
+  margin: 0.8rem 0;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.card > .cardRepo .description a:hover, .card > .cardRepo .description a:focus {
+  text-decoration: underline;
+  color: #7AFDD6;
+}
+/*# sourceMappingURL=style.css.map */
